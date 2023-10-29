@@ -15,9 +15,15 @@ function App() {
   return (
     <>
       <h1>Hello World!</h1>
-      <SectionAbout loading={loading} />
+
+      {/* Exemplo de Context usando Provider */}
+      <SectionAbout />
+
+      {/* Exemplo de Context usando Passagem de props entre components */}
       <SectionContext loading={loading} />
-      <SectionContact loading={loading} />
+
+      {/* Exemplo de Context usando Consumer */}
+      <SectionContact />
     </>
   )
 }

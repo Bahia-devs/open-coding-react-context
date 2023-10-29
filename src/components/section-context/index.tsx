@@ -1,3 +1,4 @@
+/* Exemplo de Context usando Passagem de props entre components */
 export function SectionContext({ loading }: { loading: boolean }) {
   if (loading) {
     return <p>loading...</p>

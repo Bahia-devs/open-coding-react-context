@@ -1,4 +1,10 @@
-export function SectionAbout({ loading }: { loading: boolean }) {
+import { useContext } from "react"
+import { LoadingContext } from "../context/LoadingContext/loading-context"
+
+/* Exemplo de Context usando Provider */
+export function SectionAbout() {
+  const { loading } = useContext(LoadingContext)
+
   if (loading) {
     return <p>loading...</p>
   }
