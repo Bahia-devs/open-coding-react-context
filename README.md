@@ -4,6 +4,9 @@ Exemplo de uso do React Context para o Open Coding da comunidade Bahia devs.
 
 # Getting started
 
+## Node version
+v18.x
+
 ## Clonando
 
 Realize o clone do repositório.
